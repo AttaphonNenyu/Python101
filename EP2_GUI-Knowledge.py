@@ -5,9 +5,9 @@ from tkinter import messagebox
 GUI = Tk()
 GUI.title('โปรแกรมหา VAT ของ 500')
 GUI.geometry('500x400')
-Grand = 500
+Grand = 1000
 
-L1 = Label(GUI,text='VAT ของ 500',font=('Angsana New',30),fg='green')
+L1 = Label(GUI,text='VAT ของ 1000',font=('Angsana New',30),fg='green')
 L1.place(x=100,y=20)
 def Button1(): #ฟังก์ชัน
     text = f'{(Grand*5)/105:,.2f}'
